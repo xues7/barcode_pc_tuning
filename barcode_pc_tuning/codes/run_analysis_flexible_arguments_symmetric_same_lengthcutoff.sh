@@ -1,0 +1,3 @@
+mkdir /home/xues7/barcode_pc_tuning/results/match$1_mismatch$2_gap$3_extension$4_symmetric_cutoff$5_length_cutoff$6_bp$8 
+/home/xues7/bacon_garlic/src/bc_picker.py  --match_score $1 --mismatch_score $2 --gap_score $3 --extension_score $4 --max_iter 600000 --stats_file /home/xues7/barcode_pc_tuning/results/match$1_mismatch$2_gap$3_extension$4_symmetric_cutoff$5_length_cutoff$6_bp$8/$7_stats --prefix match$1_mismatch$2_gap$3_extension$4_symmetric_cutoff$5_length_cutoff$6_bp$8__$7 --bc_config symmetric --cutoff $5  --length_cutoff $6 --length_cutoff2 $6 --bc_direction rf   /home/xues7/barcode_pc_tuning/bc4_data/$8_bp/$7.hqr.fa  /home/xues7/barcode_pc_tuning/bc4_data/barcodes.fa 
+
